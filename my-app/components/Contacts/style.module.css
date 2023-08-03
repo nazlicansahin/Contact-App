@@ -1,0 +1,38 @@
+.container {
+    width: 400px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.list {
+    margin: 15px 0;
+
+}
+
+.list>li {
+    display: flex;
+
+    margin: 5px;
+    padding: 5px;
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+
+
+
+}
+
+.btn>button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f6db0f;
+    cursor: pointer;
+    outline: none;
+}
